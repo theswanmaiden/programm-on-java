@@ -1,6 +1,7 @@
 package guru.qa;
 
 public class Cats extends Felidae implements Meow {
+    private String breed;
     public Cats(String name, int age) {
         super(name, age);
     }
@@ -10,12 +11,13 @@ public class Cats extends Felidae implements Meow {
         return "Мяу";
     }
 
-    public void isOld(String name, int age) {
+    public void isOld() {
         if (age > 1) {
             System.out.printf("%s уже не котенок \n", name);
         } else {
             System.out.printf("%s еще котенок \n", name);
         }
     }
+
 }
 

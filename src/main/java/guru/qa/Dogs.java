@@ -1,6 +1,7 @@
 package guru.qa;
 
 public class Dogs extends Canidae implements Bark{
+    private String breed;
     public Dogs(String name, int age) {
         super(name, age);
     }
@@ -10,7 +11,7 @@ public class Dogs extends Canidae implements Bark{
         return "Гав";
     }
 
-    public void isOld(String name, int age) {
+    public void isOld() {
         if (age > 1) {
             System.out.printf("%s уже не щеночек \n", name);
         } else {
