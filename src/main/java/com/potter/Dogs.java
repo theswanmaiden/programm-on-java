@@ -1,4 +1,4 @@
-package guru.qa;
+package com.potter;
 
 public class Dogs extends Canidae implements Bark{
     private String breed;

@@ -1,6 +1,6 @@
-package guru.qa;
+package com.potter;
 
-public class Canidae {
+public abstract class Felidae {
     protected String name;
     protected int age;
 
@@ -20,8 +20,9 @@ public class Canidae {
         return age;
     }
 
-    public Canidae (String name, int age) {
+    public Felidae (String name, int age) {
         this.name = name;
         this.age = age;
     }
+
 }

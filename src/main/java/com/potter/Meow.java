@@ -1,4 +1,4 @@
-package guru.qa;
+package com.potter;
 
 public interface Meow {
     String voice();

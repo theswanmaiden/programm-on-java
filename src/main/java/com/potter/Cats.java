@@ -1,4 +1,4 @@
-package guru.qa;
+package com.potter;
 
 public class Cats extends Felidae implements Meow {
     private String breed;
